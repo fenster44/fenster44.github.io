@@ -1,1 +1,2 @@
-Welcome to RetroFlare
+#Welcome to RetroFlare.
+##Be kind, please rewind.
