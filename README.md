@@ -5,7 +5,9 @@
    ```
    cd /lib/firmware/i915
    ```
-   - Delete kbl_dmc_ver1_04.bin
+   ```
+   rm kbl_dmc_ver1_04.bin
+   ```
 4. To fix LXC backup errors:
    ```
    nano /etc/vzdump.conf
