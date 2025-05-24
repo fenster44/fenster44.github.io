@@ -1,2 +1,9 @@
-# Welcome to RetroFlare.
-![flare](https://user-images.githubusercontent.com/119391088/226982845-6d4b7dc6-4399-4493-b598-480c0ae69f30.jpg)
+# Proxmox Fresh Post-Install Steps
+
+1. https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
+2. From node shell: `cd /lib/firmware/i915`
+     - Delete kbl_dmc_ver1_04.bin
+3. To fix LXC backup errors: `nano /etc/vzdump.conf`
+     - Uncomment tmpdir and set to /tmp
+4. Setup email
+     - https://technotim.live/posts/proxmox-alerts/
