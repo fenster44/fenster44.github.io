@@ -1,8 +1,10 @@
 # Proxmox Fresh Post-Install Steps
 
 1. https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
-2. From node shell:
-   https://forum.proxmox.com/threads/proxmox-random-reboots-on-hp-elitedesk-800g4-fixed-with-proxmox-install-on-top-of-debian-12-now-issues-with-hardware-transcoding-in-plex.132187/page-4#post-750312
+2. https://forum.proxmox.com/threads/proxmox-random-reboots-on-hp-elitedesk-800g4-fixed-with-proxmox-install-on-top-of-debian-12-now-issues-with-hardware-transcoding-in-plex.132187/page-4#post-750312
+
+   Or try this (from node shell):
+   
    ```
    cd /lib/firmware/i915
    ```
