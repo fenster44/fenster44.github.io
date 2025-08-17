@@ -23,3 +23,7 @@
         pct rescan
         ```
       - Then use GUI to delete unused volumes
+8. Update LXCs
+   ```
+   bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/update-lxcs.sh)"
+   ```
