@@ -11,7 +11,7 @@
    ```
    rm kbl_dmc_ver1_04.bin
    ```
-4. To fix LXC backup errors:
+4. To fix LXC backup errors (only if using direct NFS backups):
    ```
    nano /etc/vzdump.conf
    ```
