@@ -27,3 +27,6 @@
    ```
    bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/update-lxcs.sh)"
    ```
+9. Override backup notification templates
+https://forum.proxmox.com/threads/how-to-customize-the-proxmox-vzdump-email-notification-format-for-backup-summaries.161899/#post-770232
+It's the /usr/share/pve-manager/templates/default directory. But good news, Proxmox VE 8.4 now added support for overridable templates, this eliminates the problem of changes being overridden by package updates. To override a template, create/copy a template file at /etc/pve/notification-templates/default . For example, if you want to override the subject for backup notifications, create a /etc/pve/notification-templates/default/vzdump-subject.txt.hbs template. You may want to use the default template at /usr/share/pve-manager/templates/default as a reference.
